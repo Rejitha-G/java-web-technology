@@ -1,0 +1,177 @@
+ html,body{
+            margin: 0px;
+            padding:0px;
+        }
+        .outter-div{
+            background-color: rgb(228, 201, 49);
+            height:180px;
+            margin:0px;
+            padding: 0px;
+        }
+        .inner-div1{
+            background-color: rgb(0, 0, 0);
+            height:60px;
+           
+           
+
+        }
+        .inner1{
+            display:flex;
+            flex-direction: row;
+            grid-template-columns: 1fr 1fr 1px;
+            justify-content: space-between;
+            margin-left:60px;
+            margin-right:70px;
+
+        }
+        .first-p{
+            color: rgb(222, 224, 226);
+            font-size: 15px;
+            font-family: arial;
+            width:60px;
+            height: 50px;
+           
+        
+        }
+        .second-p{
+            display: flex;
+            align-items: center;
+            color: rgb(14, 187, 58);
+            font-size: 15px;
+            font-family: arial;
+            animation: vertical-scroll 5s linear infinite;
+
+    
+        
+        }
+        @keyframes vertical-scroll {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(100%);
+      }
+    }
+
+        .image{
+            display:flex;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: space-between;
+            width:150px;
+            align-items: center;
+        }
+        i{
+            width: 20px;
+            padding-left: 5px;
+            padding-top:5px;
+            padding-bottom: 5px;
+            background-color: white;
+            border-radius: 100px;
+        }
+         
+        .inner-div2{
+            background-color: rgb(57, 20, 192);
+            height:110px;
+            padding-top: 8px;
+            padding-bottom: 4px;
+            display: flex;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: space-between;
+           
+        }
+        .seconddiv-img{
+           margin-left: 70px; 
+           border-radius: 10px;
+           border:none;
+           margin-right: 0px;
+           padding-right: 0px;
+         
+        }
+        .second-inner-div{
+            padding-left: 0px;
+            margin-left: -110px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .second-third{
+          display: flex;
+         
+          grid-template-columns: 1fr 1fr;
+          padding-right: 0px;
+          margin-right: 0px;
+        }
+        .second-third1{
+            padding: 10px;
+            margin-left: -100px;
+            padding-top: 40px;
+            width: 60px;
+        }
+        .second-third2{
+            width:60px;
+        }
+        .third-div{
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+
+        }
+        .forth-img-class{
+            padding-top: 30px;
+            padding-right: 70px;
+            width: 40px;
+        }
+        .p1{
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .p2{
+            font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .p3{
+            font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .p4{
+            font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .p5{
+            font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .p6{
+            font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .p7{
+            font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .p1:hover{
+            color:blue;
+        }
+        .p2:hover{
+            color:blue;
+        }
+        .p3:hover{
+            color:blue;
+        }
+        .p4:hover{
+            color:blue;
+        }
+        .p5:hover{
+            color:blue;
+        }
+        .p6:hover{
+            color:blue;
+        }
+        .p7:hover{
+            color:blue;
+        }
+        .container{
+            height: 50px;
+      overflow: hidden; /* Hide overflow text */
+      border: 1px solid black;
+        }
