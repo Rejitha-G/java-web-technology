@@ -1,0 +1,74 @@
+ body{
+            display: flex;
+            background-color: rgb(67, 182, 38);
+            align-content: center;
+            justify-content: center;
+        }
+           
+        .cantainer{
+            display: flex;
+            margin-top: 100px;
+           margin-bottom: 150px;
+           padding-left: 40px;
+           padding-right: 50px;
+           align-items: center;
+           background-color: rgb(49, 83, 83);
+           border-radius: 100px;
+        }
+           
+        .Username{
+            display: flex;
+         margin-bottom: 10px;
+         padding-bottom: 20px;
+        
+
+        }
+       
+        input{
+            margin-left: 40px;
+            box-sizing: border-box;
+            border-radius: 50px;
+            border-color: black;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 100px;
+            box-shadow: inset 10px 15px 13px gray;
+            width: 400px;
+
+        }
+        input:hover{
+            background-color: gray;
+        }
+        input::placeholder{
+            color: rgb(143, 14, 20);
+            font-size: 20px;
+            font-weight: 500px;
+        }
+        button{
+            border: solid; 
+            border-radius: 20px;
+            width: 100px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: rgb(32, 14, 190);
+            color:white;
+            border-color: rgb(27, 28, 44);
+        }
+       
+        p{
+            margin: 0px;
+            padding: 0px;
+            text-decoration-line: none;
+            font-size: 20px;
+
+        }
+        button:hover{
+            cursor: pointer;
+            box-shadow: 10px 10px 20px rgb(7, 3, 24);
+            
+        }
+        input[type="text"]
+        {
+            font-size: 20px;
+        }
+       
