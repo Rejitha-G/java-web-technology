@@ -1,0 +1,170 @@
+body{
+            margin: 0px;
+            
+            background-color: rgb(221, 218, 201);
+            
+        }
+        .containerhead{
+            background-color: rgb(112, 104, 59);
+            
+        }
+        .div1{
+           
+            background-color: rgb(16, 1, 53);
+            height:80pxpx;
+            display: flex;
+            justify-content: center;
+        }
+        .div2{
+         
+            background-color: rgb(243, 206, 150);
+            height:130px;
+            display: flex;
+            justify-content: space-between;
+
+        
+        }
+        .firstp{
+            color: rgb(153, 207, 25);
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         }
+         .image1{
+            width:100px;
+            border-radius: 100px;
+            border:solid;
+            border-color: black;
+            margin-top: 15px;
+            margin-left: 50px;
+         }
+         .div2elem{
+            display: flex;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-top: 15px;
+            margin-left: -40px;
+            align-content: center;
+         }
+         .headp2{
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: black;
+         }
+         .headp3{
+            font-size: 35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(206, 41, 41);
+            margin-right: 30px;
+            
+         }
+        .imagediv{
+            height: 500px;
+            background-color: rgb(79, 76, 82);
+            margin-top: 30px;
+            position: relative;
+           
+           
+            
+        } 
+        .image2{
+           width: 100%;
+           height: 700px;
+          
+        }
+        .imagecontent{
+            position: absolute;
+            top: 30px;
+            left:30%;
+
+        }
+       .imagecontent1{
+            position: absolute;
+            top: 450px;
+            left:17%;
+       }
+        .imgp{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:50px;
+            color: rgb(107, 154, 209);
+        }
+        .spara{
+            font-size: 55px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(54, 131, 204);
+            
+        }
+        .imgp1{
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-size: 60px;
+         color: rgb(207, 21, 21);
+
+        }
+        .container3{
+           margin-top: 250px;
+            height: 700px;
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            
+        }
+        .div3side{
+            display:inline-block;  
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+           
+           
+        }
+        .div3para{
+            margin-left: 30px;
+            font-size: 37px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(5, 4, 4);
+        }
+        
+        
+        .div3sidefi{
+            display:inline-block;
+             background-color: rgb(167, 182, 170); 
+            overflow-y: auto;
+            height: 700px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            
+        }
+        button{
+            width: auto;
+            height:117px;
+            border-radius: 10px;
+            border-color: black;
+            background-color: rgb(61, 85, 85);
+        }
+        .div3imagdog{
+            width: 320px;
+            height: 300px;
+            margin: 20px;
+            border: solid;
+            border-color: black;
+        }
+        .fotter{
+            background-color: black;
+            height: 350px;
+            margin-top: 300px;
+            margin-bottom: 0px;
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-between;
+            
+        }
+        .contact{
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+        .description{
+            color: rgb(207, 22, 22);
+            margin-top: 50px;
+            margin-left: -100px;
+            width: 500px;
+        }
+
+        
+        
