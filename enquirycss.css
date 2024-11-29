@@ -1,0 +1,61 @@
+
+        .container{
+            height: 450px;
+           margin-left: 350px;
+           margin-top: 40px;
+           padding: 50px;
+           width: 500px;
+            border-radius: 30px;
+            border-color: rgb(165, 172, 177);
+            background-color: rgb(103, 134, 124);
+            
+        }
+        .stylediv{
+            margin-left: 130px;
+            margin-bottom: 20px;
+
+        }
+        b{
+            font-size: 20px;
+            color: rgb(21, 22, 22);
+            font-family: 'Courier New', Courier, monospace;
+             margin-right: 40px;
+             margin-left: -30px;
+        }
+        input{
+            width: 200px;
+            height: 20px;
+            border-radius: 50px;
+            border-color: rgb(193, 201, 209);
+            background-color: aliceblue;
+
+        }
+        textarea{
+            position: absolute;
+          margin-top: 10px;
+            margin-right: 200px;
+            width: 500px;
+            height: 200px;
+            border-radius: 5px;
+            border-color: rgb(193, 201, 209);
+            background-color: aliceblue;
+        }
+        button{
+            margin-left: 150px;
+            margin-top: 235px;
+            width: 200px;
+            height: 30px;
+            border-radius: 20px;
+            border-color: rgb(193, 201, 209);
+            background-color: rgb(55, 204, 25);
+        }
+        h1{
+            margin-left: 130px;
+            margin-top: -20px;
+        }
+        .headdiv{
+            margin-bottom: 40px;
+        }
+    
+        
+ 
