@@ -10,14 +10,24 @@ body{
         }
         .div1{
            
-            background-color: rgb(16, 1, 53);
+            background-color: rgb(40, 4, 97);
             height:80pxpx;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
+            
+        }
+        .admin{
+               margin-right: 20px;
+               margin-top: 30px;
+        }
+        .adminspan{
+            color: rgb(36, 36, 175);
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
         }
         .div2{
          
-            background-color: rgb(243, 206, 150);
+            background-color: rgb(255, 232, 99);
             height:130px;
             display: flex;
             justify-content: space-between;
@@ -28,6 +38,7 @@ body{
             color: rgb(153, 207, 25);
             font-size: 30px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-left: 550px;
          }
          .image1{
             width:100px;
@@ -48,6 +59,7 @@ body{
             font-size: 30px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             color: black;
+           
          }
          .headp3{
             font-size: 35px;
@@ -99,21 +111,53 @@ body{
 
         }
         .container3{
-           margin-top: 250px;
+            
+          
             height: 700px;
-            display: grid;
-            grid-template-columns: 400px 1fr;
             
         }
-        .div3side{
-            display:inline-block;  
-            height: 700px;
-            display: flex;
-            flex-direction: column;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-           
-           
+        .textcon3{
+            margin-top: 150px;
         }
+        .findpetp{
+            display: inline-block;
+            margin-left: 400px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 60px;
+            color: rgb(8, 10, 9);
+           
+            
+        }
+        .searchimg{
+            margin-left: 40px;
+            width: 50px;
+            margin-top: 10px;
+        }
+        .div3con{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+        .div3ima{
+            width:400px;
+            height:320px;
+            margin: 10px;
+        }
+        .div3con2{
+            display:flex;
+            grid-template-columns: 1fr 1fr 1fr;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .button3{
+            margin: 5px;
+            border-radius: 10px;
+            border-color: black;
+            background-color: rgb(66, 78, 78);
+        }
+       
         .div3para{
             margin-left: 30px;
             font-size: 37px;
@@ -122,33 +166,12 @@ body{
         }
         
         
-        .div3sidefi{
-            display:inline-block;
-             background-color: rgb(167, 182, 170); 
-            overflow-y: auto;
-            height: 700px;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            
-        }
-        button{
-            width: auto;
-            height:117px;
-            border-radius: 10px;
-            border-color: black;
-            background-color: rgb(61, 85, 85);
-        }
-        .div3imagdog{
-            width: 320px;
-            height: 300px;
-            margin: 20px;
-            border: solid;
-            border-color: black;
-        }
+       
+       
         .fotter{
             background-color: black;
             height: 350px;
-            margin-top: 300px;
+            margin-top: 60px;
             margin-bottom: 0px;
             display: flex;
             grid-template-columns: 1fr 1fr;
@@ -164,6 +187,19 @@ body{
             margin-top: 50px;
             margin-left: -100px;
             width: 500px;
+        }
+        a{
+            text-decoration: none !important;
+        }
+        .container4{
+            height: 480px;
+            width: 600px;
+            margin-top: 90px;
+             margin-left: 390px;
+        }
+        #chartContainer{
+            margin-top: 10px;
+            margin-left: 24px;
         }
 
         
