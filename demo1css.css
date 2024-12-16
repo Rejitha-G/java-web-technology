@@ -1,0 +1,14 @@
+       .button1{
+            margin-top: 20px;
+            width: 200px;
+            padding: 8px;
+            background-color: rgb(47, 197, 10);
+            margin-left: 950px;
+            border-radius: 20px;
+            box-shadow: 8px 8px 7px;
+        }
+        .button1:hover{
+            background-color: rgb(2, 20, 2);
+            color: aliceblue;
+        }
+      

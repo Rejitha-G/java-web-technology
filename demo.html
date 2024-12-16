@@ -1,15 +1,17 @@
-,<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="C:\Users\rejitha\Downloads\practice\demo1css.css" rel="stylesheet">
     <script type="text/javascript">
         var h=10;
         var n="java";
         var a=5.8;
         var r=false;
         var b=["strawberry","mango","apple"];
+        
         console.log(h);
         console.log(n);
         console.log(a);
@@ -20,11 +22,48 @@
         console.log(typeof a);
         console.log(typeof r);
         console.log(typeof b);
-        document.writeln(h);
-        document.writeln(n);
+        //visible on screen
+        /*document.writeln(h);
+        document.writeln(n);*/
+       
+      /*  var com=new Object();
+        com.comname="ABC company";
+        com.noofemp=50;
+        com.tsalary=500000;
+        com.projectname="anaconda";
+        com.tproject=5;
+        com.ownername="xyz";
+        document.write("<br>Object example <br>");
+        document.write(com.comname+"<br> "+com.noofemp+" <br>"+com.tsalary+" <br>"+com.projectname+" <br>"+com.tproject+"<br> "+com.ownername);
+    */
+        //using prompt ,alert 
+        function alertUser()
+        {
+            var n=prompt("who are you? enter your full name");
+           
+            if(n=="rejitha"){
+                alert("You can visit your page...WELCOME REJITHA");
+            }
+            else if(n==""){
+               var r=confirm("name please");
+                if(r==true){
+                    alert("Thank you");
+                }
+                else{
+                    alert("Please I need your name");
+                }
+            
+            }
+            else{
+                alert("you are a unauthorized user.Sorry You can't visit this page");
+            }
+       
+        }
+
         </script>
 </head>
 <body>
-    <h1>DATA TYPES</h1>
+    <button class="button1" onclick="alertUser()">Login</button>
+    
 </body>
 </html>
