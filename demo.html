@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="demo1css.css" rel="stylesheet">
+    <link href="C:\Users\rejitha\Downloads\practice\demo1css.css" rel="stylesheet">
     <script type="text/javascript">
         var h=10;
         var n="java";
@@ -36,7 +36,8 @@
         document.write("<br>Object example <br>");
         document.write(com.comname+"<br> "+com.noofemp+" <br>"+com.tsalary+" <br>"+com.projectname+" <br>"+com.tproject+"<br> "+com.ownername);
     */
-        //using prompt ,alert 
+        //using prompt ,alert
+         
         function alertUser()
         {
             var n=prompt("who are you? enter your full name");
@@ -57,13 +58,47 @@
             else{
                 alert("you are a unauthorized user.Sorry You can't visit this page");
             }
+    }
+    //function for age
+            function myfun(){
+                var age=document.getElementById("age").value; 
+               if(age<18){
+                alert("i can't allow you to login (not eligible) .your age is  "+age );
+               }
+               else{
+                alert("you can visit");
+               }
+            }
+            
+
+            //function for displaying 3 values
+            function display(){
+                var na=document.getElementById("name").value;
+                var ag=document.getElementById("num").value;
+                var da=document.getElementById("date").value;     
+                document.writeln("Your name is "+na+ "<br>"+ "Your age is "+ag+ "<br>"+ "Date of joining: "+da+ "<br>"+ "Welcome!");
+            
+            }
+
        
-        }
+        
 
         </script>
 </head>
 <body>
+    <p>Enter age:<p>
+    <input type="text" id="age" ></br>
+    <button onclick="myfun()">Register</button>
     <button class="button1" onclick="alertUser()">Login</button>
-    
+    </br></br></br>
+    <form>
+        <label>Name</label></br>
+    <input type="text" id="name"/></br>
+    <label>Register number</label></br>
+    <input type="text" id="num"/></br>
+    <label>Date of joining</label></br>
+    <input type="date" id="date"/></br>
+    <button onclick="display()">Register</button>
+    </form>
 </body>
 </html>
