@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="C:\Users\rejitha\Downloads\practice\demo1css.css" rel="stylesheet">
+   <link href="C:\Users\rejitha\Downloads\practice\demo1css.css" rel="stylesheet">
     <script type="text/javascript">
         var h=10;
         var n="java";
@@ -80,6 +80,29 @@
             
             }
 
+
+            function funct(){
+                var nam=document.form1.print.value;
+                confirm('Are you '+nam);
+            }
+
+
+            function funct1(){
+                var name1=document.getElementsByClassName('print1');
+                document.writeln("Example for getelementbyclass"+name1);
+            }
+
+
+
+            function showcommentform() {  
+
+            var data="Name:<input type='text' name='name'><br>Comment:<br><textarea rows='5' cols='80'></textarea><br><input type='submit' value='Post Comment'>";  
+
+             document.getElementById('mylocation').innerHTML=data;  
+
+}  
+
+
        
         
 
@@ -91,7 +114,7 @@
     <button onclick="myfun()">Register</button>
     <button class="button1" onclick="alertUser()">Login</button>
     </br></br></br>
-    <form>
+    <form name="form1">
         <label>Name</label></br>
     <input type="text" id="name"/></br>
     <label>Register number</label></br>
@@ -99,6 +122,23 @@
     <label>Date of joining</label></br>
     <input type="date" id="date"/></br>
     <button onclick="display()">Register</button>
+    </br>
+</br>
+<input type="text" id="print"/></br>
+<button onclick="funct()">click me</button>
+</form>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<button class="print1" onclick="funct1()">click </button>
+    
+<form name="myForm">  
+
+    <input type="button" value="comment" onclick="showcommentform()">  
+    
+    <div id="mylocation"></div>  
+    
     </form>
+
+
 </body>
 </html>
