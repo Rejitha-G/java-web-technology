@@ -6,7 +6,7 @@
     <title>Document</title>
    <link href="C:\Users\rejitha\Downloads\practice\demo1css.css" rel="stylesheet">
     <script type="text/javascript">
-        var h=10;
+       var h=10;
         var n="java";
         var a=5.8;
         var r=false;
@@ -99,14 +99,29 @@
             var data="Name:<input type='text' name='name'><br>Comment:<br><textarea rows='5' cols='80'></textarea><br><input type='submit' value='Post Comment'>";  
 
              document.getElementById('mylocation').innerHTML=data;  
+            }
 
-}  
+             function validate()  
+             {  
+                var x=document.formvalid.email.value;  
+                var p=document.getElementById('value');
+                var phonechar=/^[0-9]{10}$/;
+                var atposition=x.indexOf("@");  
+                var dotposition=x.lastIndexOf(".");  
+          if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+               alert("Please enter a valid e-mail address");  
+                return false;  
+           }  
+           if(!phonechar.test(p))
+           {
+               alert("please provide valid phone Number");
+               return false;
+           } 
+                
+                }
 
-
-       
-        
-
-        </script>
+ 
+       </script>
 </head>
 <body>
     <p>Enter age:<p>
@@ -140,5 +155,18 @@
     </form>
 
 
+
+    
+
+<form class="form1" name="formvalid"  method="post" action="#" onsubmit="return validate();">  
+    Email: <br><input type="text" name="email"><br/> 
+    <label>Password</label></br>
+    <input type="password" required> <br>
+     <label>Phone NO</label><br>
+     <input type="text" name="phone"><br> 
+    <input type="submit"   value="register">  
+    </form>  
+
 </body>
+
 </html>
